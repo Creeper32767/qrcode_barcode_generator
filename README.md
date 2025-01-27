@@ -1,6 +1,8 @@
 ## # PROJECT: qrcode_barcode_generator
 
 This is a program to generate and analyse qrcode and barcode.
+![barcode](./src/barcode.png)
+![qrcode](./src/qrcode.png)
 
 ## BEFORE START
 
@@ -32,3 +34,4 @@ python main.py
 ## ISSUES
 
 Please give us your ideas through the 'issues' part on GitHub.
+
