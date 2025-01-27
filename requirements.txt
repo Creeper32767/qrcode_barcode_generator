@@ -1,0 +1,5 @@
+pyzbar
+qrcode[pil]
+python-barcode
+pillow
+colorama
