@@ -18,6 +18,7 @@ pyzbar
 qrcode[pil]
 python-barcode
 pillow
+colorama
 ```
 
 ## SETUP:
@@ -31,4 +32,3 @@ python main.py
 ## ISSUES
 
 Please give us your ideas through the 'issues' part on GitHub.
-
