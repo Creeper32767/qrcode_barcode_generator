@@ -1,4 +1,4 @@
-## # PROJECT: qrcode_barcode_generator
+### PROJECT: qrcode_barcode_generator
 
 This is a program to generate and analyse qrcode and barcode.
 ![barcode](./src/barcode.png)
