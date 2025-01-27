@@ -94,7 +94,7 @@ if __name__ == "__main__":
     elif choice == "Read Barcode or QRCode":
         path = console.ask_question("[1/1] Please enter a valid path: ")
         data = read_barcode_qrcode(path)
-        print("Information included in the arcode or qrcode: ", *data, sep="\n")
+        print("Information included in the barcode or qrcode: ", *data, sep="\n")
 
     elif choice == "Generate Barcode":
         types = console.select_option(barcode_types, message="[1/2] Type the order to select an option: ")
