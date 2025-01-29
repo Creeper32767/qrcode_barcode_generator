@@ -1,8 +1,13 @@
 ### PROJECT: qrcode_barcode_generator
 
 This is a program to generate and analyse qrcode and barcode.
-![barcode](./src/barcode.png)
-![qrcode](./src/qrcode.png)
+
+## EXAMPLES
+
+<div align="center">
+  <img src="./src/barcode.png"></img>
+  <img src="./src/qrcode.png"></img>
+</div>
 
 ## BEFORE START
 
@@ -26,8 +31,9 @@ colorama
 ## SETUP:
 
 ```
-pip install -r requirements.txt
+git clone https://github.com/Creeper32767/qrcode_barcode_generator.git
 cd "./qrcode_barcode_generator/"
+pip install -r requirements.txt
 python main.py
 ```
 
