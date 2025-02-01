@@ -14,7 +14,7 @@ def wrapper_read_barcode_qrcode():
     try:
         path = console.ask_question("[1/1] Please enter a valid path: ")
         data = read_barcode_qrcode(path)
-        print("Information included in the barcode or qrcode: ", *data, sep="\n")
+        print("\nInformation included in the barcode or qrcode: ", *data, sep="\n")
     except Exception as err:
         console.raise_error(str(err))
         wrapper_read_barcode_qrcode()
@@ -40,6 +40,7 @@ def wrapper_generate_qrcode():
         print(generate_qrcode(data, error_correction, version))
     except Exception as err:
         console.raise_error(str(err))
+        wrapper_generate_qrcode()
 
 
 def main():

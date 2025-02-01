@@ -55,7 +55,7 @@ class NeatConsole(object):
             self.execute_with_color(colorama.Fore.GREEN, print, f"[{order}] {item}")
 
         # selecting an option
-        order = self.execute_with_color(colorama.Fore.YELLOW, input, message)
+        order = self.execute_with_color(colorama.Fore.YELLOW, input, "\n" + message)
         if order.isdigit():
             res = li_options[int(order)]
             if return_order:
@@ -67,7 +67,7 @@ class NeatConsole(object):
             # handling errors
             self.execute_with_color(colorama.Fore.RED,
                                     print,
-                                    f"[Error] Invalid data. Please try again.\nDetailed Information: {exception_msg}")
+                                    f"\n[Error] Invalid data. Please try again.\nDetailed Information: {exception_msg}\n")
             for i in range(3, 0, -1):
                 stdout.write(f"\rReturning in {i} seconds...")
                 sleep(1)
